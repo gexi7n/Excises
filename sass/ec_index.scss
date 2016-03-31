@@ -168,6 +168,7 @@ a {
 .content-section {
     padding: 50px 0;
     h2{
+        font-size: 2rem;
         margin-top: 50px;
     }
     p{
@@ -189,6 +190,11 @@ a {
         font-weight: 100;
         color: lighten($secondary,30%);
 
+    }
+    @media(min-width:768px) {
+        h2{
+            font-size: 3rem;
+        }
     }
 }
 
