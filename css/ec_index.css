@@ -19,17 +19,15 @@ h6 {
   letter-spacing: 1px; }
 
 p {
-  margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.5; }
   @media (min-width: 768px) {
     p {
-      margin: 0 0 35px;
       font-size: 20px;
       line-height: 1.6; } }
 
 a {
-  color: #30B2DC;
+  color: #46CCAE;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
@@ -118,7 +116,7 @@ a {
       background: white;
       border-radius: 6px;
       box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26), 0px 2px 10px 0px rgba(0, 0, 0, 0.16); }
-      .intro .intro-body .login-form .btn-default-hollow {
+      .intro .intro-body .login-form .btn-secondary-hollow {
         margin-top: 20px; }
   @media (min-width: 768px) {
     .intro {
@@ -126,25 +124,69 @@ a {
       padding: 0; } }
 
 .content-section {
-  padding-top: 100px; }
+  padding: 50px 0; }
+  .content-section h2 {
+    margin-top: 50px; }
+  .content-section p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8; }
+  .content-section .section-title {
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5); }
+  .content-section .section-title-inverse {
+    border-bottom: 1px solid rgba(10, 10, 10, 0.5);
+    color: rgba(10, 10, 10, 0.5); }
+  .content-section .light {
+    font-weight: 100;
+    color: #beede3; }
 
-.download-section {
-  width: 100%;
-  padding: 50px 0;
+@media (min-width: 768px) {
+  .content-section {
+    padding: 100px 0; } }
+.product-section {
+  background: #46CCAE;
+  color: white; }
+
+.download-section p {
+  margin-bottom: 20px; }
+
+.cases-section {
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/case-background.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
+  .cases-section .case-list {
+    list-style: none; }
+    .cases-section .case-list li {
+      display: block;
+      margin-bottom: 20px; }
 
-@media (min-width: 767px) {
-  .content-section {
-    padding-top: 250px; } }
+.contact-section {
+  background: #343434;
+  color: white; }
+  .contact-section h2 {
+    margin-top: -30px; }
+  .contact-section .shgbit-logo {
+    display: block;
+    margin: 50px auto;
+    width: 80px;
+    height: 90px; }
+  .contact-section .contact-detail {
+    display: inline-block;
+    margin-top: 50px; }
+  .contact-section .contact-mail {
+    margin-left: 50px; }
+
 .btn {
   text-transform: uppercase;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
   font-weight: 400;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -171,18 +213,25 @@ a {
     outline: none;
     background-color: #1f94ba; }
 
-ul.banner-social-buttons {
-  margin-top: 0; }
-  @media (max-width: 1199px) {
-    ul.banner-social-buttons {
-      margin-top: 15px; } }
-  @media (max-width: 767px) {
-    ul.banner-social-buttons li {
-      display: block;
-      margin-bottom: 20px;
-      padding: 0; }
-      ul.banner-social-buttons li:last-child {
-        margin-bottom: 0; } }
+.btn-secondary {
+  border: 1px solid #46CCAE;
+  color: white;
+  background-color: #46CCAE; }
+  .btn-secondary:hover, .btn-secondary:focus {
+    border: 1px solid #30af92;
+    color: white;
+    outline: none;
+    background-color: #30af92; }
+
+.btn-secondary-hollow {
+  border: 1px solid #46CCAE;
+  color: #46CCAE;
+  background-color: transparent; }
+  .btn-secondary-hollow:hover, .btn-secondary-hollow:focus {
+    border: 1px solid #30af92;
+    color: white;
+    outline: none;
+    background-color: #30af92; }
 
 footer {
   padding: 50px 0; }
