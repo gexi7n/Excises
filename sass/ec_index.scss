@@ -79,7 +79,7 @@ a {
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
                 &:hover {
-                    color: rgba(white, 0.8);
+                    color: $secondary;
                     outline: none;
                     background-color: transparent;
                 }

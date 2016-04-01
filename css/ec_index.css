@@ -58,7 +58,7 @@ a {
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out; }
     .navbar-custom .nav li a:hover {
-      color: rgba(255, 255, 255, 0.8);
+      color: #46CCAE;
       outline: none;
       background-color: transparent; }
     .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
